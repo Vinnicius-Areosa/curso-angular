@@ -9,7 +9,9 @@ import { IfRenderComponent } from './componentes/if-render/if-render.component';
 import { EventosComponent } from './componentes/eventos/eventos.component';
 import { EmitterComponent } from './componentes/emitter/emitter.component';
 import { ChangeNumberComponent } from './componentes/change-number/change-number.component';
-import { ListRenderComponent } from './componetes/list-render/list-render.component';
+import { ListRenderComponent } from './componentes/list-render/list-render.component';
+import { PipesComponent } from './componentes/pipes/pipes.component';
+import { TwoWayBidingComponent } from './componentes/two-way-biding/two-way-biding.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { ListRenderComponent } from './componetes/list-render/list-render.compon
     EventosComponent,
     EmitterComponent,
     ChangeNumberComponent,
-    ListRenderComponent
+    ListRenderComponent,
+    PipesComponent,
+    TwoWayBidingComponent
   ],
   imports: [
     BrowserModule

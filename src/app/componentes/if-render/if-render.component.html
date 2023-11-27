@@ -1,8 +1,8 @@
 <p>if-render works!</p>
 <div class=" aula">
 <div>*ngIf="mostrar"> Estamos mostrando esse texto porque for
- <h2> ngIf=" nome=== 'vinnicius'">O nome é vinnicius</h2>   
-
-</div>
-    
-</div>
+ <h2> ngIf=" nome=== 'vinnicius'">O nome é vinnicius</h2>  
+ <ng-template #nomeNaoencontrado>  
+<div><h2>o nome nao foi encontrado!</h2></div>
+</ng-template>
+</div> 
